@@ -1,0 +1,21 @@
+//task- To print table from 1 to 10 using nested for loop
+#include<stdio.h>
+
+int main()
+{
+    int i,j,t; /*Here we will use i for outer loop counter
+            and j for inner loop counter*/
+    int num;
+    for(i=1; i<=10; i++)// To print table 1 to 10
+    {
+        num=i; //to initialize number with i (1 to 10)
+        for(j=1; j<=10; j++)
+        {
+            t=num*j;
+            printf(" %d",t);
+            
+        }
+        printf("\n");//after printing table of each number
+    }
+    return 0;
+}
